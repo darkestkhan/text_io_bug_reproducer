@@ -22,12 +22,9 @@
 -- Windows 10, 64 bit gnat
 -- $ gnat --version
 -- GNAT Community 2018 (20180523-73)
--- Copyright (C) 1996-2018, Free Software Foundation, Inc.
--- This is free software; see the source for copying conditions.
--- There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 with Ada.Text_IO;
-procedure Text_IO_Bug_Reproducer is
+procedure Ada_Text_IO_End_Of_File_Bug_Reproducer is
 
   File : Ada.Text_IO.File_Type;
 
@@ -43,4 +40,4 @@ begin
   end loop;
 
   Ada.Text_IO.Close (File);
-end Text_IO_Bug_Reproducer;
+end Ada_Text_IO_End_Of_File_Bug_Reproducer;
