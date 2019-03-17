@@ -1,0 +1,4 @@
+Reproducer for bug in implementation of Ada.Text_IO.End_Of_Line
+in GNAT Community 2018 (20180523-73) on Windows 10, 64 bit.
+
+Program hangs at the entry of the loop.
